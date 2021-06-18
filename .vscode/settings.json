@@ -1,0 +1,12 @@
+{
+    "files.watcherExclude": {
+        "**/OUTPUT/**": true
+    },
+    "files.exclude": {
+        "**/OUTPUT": true,
+        "**/*.out": true
+    },
+    "C_Cpp.default.includePath": [
+        "OUTPUT/include/boost-1_76/"
+    ]
+}
