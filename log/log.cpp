@@ -20,5 +20,7 @@ int f_log_trivial()
 
 int f_log()
 {
+    f_log_trivial ();
 
+    return 0;
 }

@@ -7,9 +7,12 @@
         "**/*.out": true
     },
     "C_Cpp.default.includePath": [
-        "OUTPUT/include/boost-1_76/"
+        "OUTPUT/include/"
     ],
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "*.tcc": "cpp",
+        "memory": "cpp",
+        "functional": "cpp"
     }
 }
