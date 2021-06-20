@@ -8,5 +8,8 @@
     },
     "C_Cpp.default.includePath": [
         "OUTPUT/include/boost-1_76/"
-    ]
+    ],
+    "files.associations": {
+        "iostream": "cpp"
+    }
 }

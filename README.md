@@ -13,7 +13,7 @@ boost is good
 ### 1.2 build boost
 
 ```bash
-./b2 --prefix=OUTPUT --no-cmake-config --build-type=complete --build-dir=BUILD --layout=versioned link=static runtime-link=static threading=multi -q install
+./b2 --prefix=OUTPUT --no-cmake-config --build-type=minimal --build-dir=BUILD threading=multi -q install
 ```
 
 ### 1.3 move OUTPUT to code dir
